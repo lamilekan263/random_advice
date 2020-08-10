@@ -27,7 +27,7 @@ class App extends React.Component{
         <div className="card">
           <h1> {this.state.advice}</h1>
 
-          <button onClick = {this.getAdvice}>Get Advice </button>
+          <button onClick = {this.getAdvice}> me</button>
         </div>
       </div>
     )

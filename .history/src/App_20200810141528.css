@@ -1,0 +1,19 @@
+body{
+  margin:0;
+  padding: 0;
+  background-image: url('./bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:100vh;
+  background-position: center;
+  background
+  display:flex;
+  justify-content: center;
+  text-align:center;
+  align-items: center;
+}
+
+.app{
+  /* width:80%;
+  margin: 0 auto; */
+}

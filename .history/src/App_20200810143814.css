@@ -6,7 +6,7 @@ body{
   background-repeat: no-repeat;
   height:100vh;
   background-position: center;
-  background-color: linear-gradient(rgba(5, 4, 4, 0.3));
+  background-color: rgba(0,0,05 rgba(0,0,04));
   display:flex;
   justify-content: center;
   text-align:center;
@@ -16,8 +16,7 @@ body{
 .card{
   width:80%;
   margin: 0 auto;
-  background-color:teal;
-  background: linear-gradient(rgba(0,0,0,0.3));
+  background-color: transparent;
   border:1px solid white;
   padding:5px;
   border-radius: 10px;
@@ -27,31 +26,8 @@ body{
   justify-content: center;
   text-align:center;
   align-items: center;
-  -webkit-box-shadow: 1px 1px 5px 14px rgba(245,240,245,1);
-  -moz-box-shadow: 1px 1px 5px 14px rgba(245,240,245,1);
-  box-shadow: 1px 1px 5px 14px rgba(245,240,245,1);
-
 
 }
 h1{
   font-family: monospace;
-  color:whitesmoke;
-}
-
-
-button{
-  padding:10px;
-  font-size:20px;
-  background-color: rgb(8, 63, 63);
-  cursor: pointer;
-  border:none;
-  color:white;
-  border-radius:5px;
-
-}
-button:hover{
-
-  background-color: rgb(6, 20, 20);
-  
-
 }

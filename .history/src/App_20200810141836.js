@@ -24,10 +24,10 @@ class App extends React.Component{
   render(){
     return(
       <div className="app">
-        <div className="card">
+        <div className>
           <h1> {this.state.advice}</h1>
 
-          <button onClick = {this.getAdvice}>Get Advice </button>
+          <button onClick = {this.getAdvice}>click me</button>
         </div>
       </div>
     )

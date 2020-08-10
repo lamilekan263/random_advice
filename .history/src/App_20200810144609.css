@@ -6,7 +6,7 @@ body{
   background-repeat: no-repeat;
   height:100vh;
   background-position: center;
-  background-color: linear-gradient(rgba(5, 4, 4, 0.3));
+  background: linear-gradient()
   display:flex;
   justify-content: center;
   text-align:center;
@@ -16,8 +16,7 @@ body{
 .card{
   width:80%;
   margin: 0 auto;
-  background-color:teal;
-  background: linear-gradient(rgba(0,0,0,0.3));
+  background-color: transparent;
   border:1px solid white;
   padding:5px;
   border-radius: 10px;
@@ -35,23 +34,5 @@ body{
 }
 h1{
   font-family: monospace;
-  color:whitesmoke;
-}
-
-
-button{
-  padding:10px;
-  font-size:20px;
-  background-color: rgb(8, 63, 63);
-  cursor: pointer;
-  border:none;
   color:white;
-  border-radius:5px;
-
-}
-button:hover{
-
-  background-color: rgb(6, 20, 20);
-  
-
 }
