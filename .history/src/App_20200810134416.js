@@ -5,29 +5,25 @@ import axios from 'axios'
 class App extends React.Component{
 
   state = {
-    advice : ''
+    advice : null
   }
  componentDidMount(){
     this.getAdvice()
+
   }
 
   getAdvice = ()=>{
     axios.get('https://api.adviceslip.com/advice')
-    .then((response) =>{
-      const { advice } = response.data.slip;
-      console.log(advice)
-      this.setState({ advice })
-    })
-
+    .then(response => {
+      this.setState({advice : response.data.slip.advice})
+    } )
   }
   
   render(){
     return(
-      <div>
-        <h1> {this.state.advice}</h1>
+      <h1> Hello world </h1>
 
-        <button onClick = {this.getAdvice}>click me</button>
-      </div>
+      <button onClick = {this.getAdvice}>click me</button>
     )
   }
 }

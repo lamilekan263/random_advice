@@ -16,6 +16,7 @@ class App extends React.Component{
     .then((response) =>{
       const { advice } = response.data.slip;
       console.log(advice)
+      
       this.setState({ advice })
     })
 

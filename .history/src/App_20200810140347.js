@@ -14,8 +14,7 @@ class App extends React.Component{
   getAdvice = ()=>{
     axios.get('https://api.adviceslip.com/advice')
     .then((response) =>{
-      const { advice } = response.data.slip;
-      console.log(advice)
+      const { advice } =response.data.slip.advice;
       this.setState({ advice })
     })
 

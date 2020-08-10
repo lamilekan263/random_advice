@@ -13,11 +13,10 @@ class App extends React.Component{
 
   getAdvice = ()=>{
     axios.get('https://api.adviceslip.com/advice')
-    .then((response) =>{
-      const { advice } = response.data.slip;
+    .then(response => {
+      const { advice } = response.data.slip.advice;
       console.log(advice)
-      this.setState({ advice })
-    })
+    } );
 
   }
   
