@@ -27,7 +27,7 @@ body{
   justify-content: center;
   text-align:center;
   align-items: center;
-  -webkit-box-shadow: 1px 1px 5px 1px rgba(245,240,245,1);
+  -webkit-box-shadow: 1px 1px 5px 14px rgba(245,240,245,1);
   -moz-box-shadow: 1px 1px 5px 1px rgba(245,240,245,1);
   box-shadow: 1px 1px 5px 1px rgba(245,240,245,1);
 
